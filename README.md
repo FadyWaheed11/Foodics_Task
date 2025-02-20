@@ -34,7 +34,7 @@ This section should list any major dependencies/libraries used to bootstrap this
 * [![JsonSimple][JsonSimple]][JsonSimple-url]
 
 
-## Prerequisites
+## 📌Prerequisites
 
 Before setting up the project, ensure you have the following installed on your system:  
 ✅ **Operating System:** Windows, macOS, or Linux  
