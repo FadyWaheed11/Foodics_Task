@@ -37,11 +37,19 @@ This section should list any major dependencies/libraries used to bootstrap this
 ## 📌Prerequisites
 
 Before setting up the project, ensure you have the following installed on your system:  
+
 ✅ **Operating System:** Windows, macOS, or Linux  
 ✅ **Java Development Kit (JDK 11+)** – [Download Here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)  
-✅ **Maven (Latest Version)** – [Download Here](https://maven.apache.org/download.cgi)  
+✅ **Maven (Latest Version)** – [Download Here](https://maven.apache.org/download.cgi)
 
+## 🚀Installation and Run
 
+Below is an example of how you can install and set up the project.
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
 
 
 
