@@ -74,7 +74,7 @@ This section should list any major dependencies/libraries used to bootstrap this
 [Java-url]: https://docs.oracle.com/en/java/
 [Selenium]: https://img.shields.io/badge/selenium-webdriver-43B02A?style=for-the-badge&logo=selenium&logoColor=white
 [Selenium-url]: https://www.selenium.dev/documentation/webdriver/
-[RestAssured]: ![RestAssured](https://img.shields.io/badge/RestAssured-%234CAF50.svg?style=for-the-badge&logoColor=white)
+[RestAssured]: RestAssured](https://img.shields.io/badge/RestAssured-%234CAF50.svg?style=for-the-badge&logoColor=white
 [Appium-url]: https://appium.io/docs/en/latest/
 [TestNG]: https://img.shields.io/badge/TestNg-FF7F00?style=for-the-badge&logo=testng&logoColor=white
 [TestNG-url]: https://testng.org/
