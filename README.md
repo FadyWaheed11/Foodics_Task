@@ -15,7 +15,7 @@ This project is a **Selenium-Java** and **RestAssured API** test automation fram
 ### 🔹 **Key Features:**  
 ✅ **Selenium Web Automation:** Automates the user journey on **Amazon.eg**, including login, product filtering, sorting, and cart validation.  
 ✅ **API Testing with RestAssured:** Covers **Create, Retrieve, and Update User** functionalities using **Reqres API**.  
-✅ **TestNG for Execution & Reporting:** Ensures structured test execution with detailed reports.  
+✅ **TestNG for Execution & Validation:** Ensures structured test execution.  
 ✅ **Page Object Model (POM):** Implements a modular and maintainable test structure.  
 ✅ **Robust Error Handling & Logging:** Ensures stability and debugging efficiency.  
 ✅ **Maven for Dependency Management:** Simplifies project setup and execution.  
