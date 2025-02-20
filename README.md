@@ -1,5 +1,5 @@
 # Foodics-Automation-Task
-![image](https://github.com/user-attachments/assets/a303e609-e7d8-4587-9682-e71b8e352d74)
+![image](https://github.com/user-attachments/assets/e3236f41-1866-42a4-96c7-e129e94e93d2)
 
 
 
