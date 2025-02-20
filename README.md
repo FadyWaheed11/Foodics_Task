@@ -85,6 +85,17 @@ mvn test
 * [Data Driven Techniques](#data-driven-techniques)
 
 
+## POM 🏗️
+* Page Object Model (POM) is a design pattern, popularly used in test automation that creates Object Repository for UI elements.
+* The advantage of the model is that it reduces code duplication and improves test maintenance.
+* We separate the framework (coding part) from the testing part.
+* We represent each screen in our application by Class in the framework.
+* You can read more about POM structure on:
+  - [Guru99](https://www.guru99.com/page-object-model-pom-page-factory-in-selenium-ultimate-guide.html)
+  - [GeeksForGeeks](https://www.geeksforgeeks.org/page-object-model-pom/)
+  - [Official Selenium](https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/)
+  - [BrowserStack](https://www.browserstack.com/guide/page-object-model-in-selenium)
+
 
 
 
