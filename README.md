@@ -223,7 +223,7 @@ public void test() {
  - Excel is good to manage data and to use but it comes with its own limitations. Like MS Office needs to be installed on the system where the tests are being executed. 
  - As the test servers has never bound to have such dependencies.
  - If test is run on Mac, then again there is a different problem.
-## Read From JSON File
+#### Read From JSON File
 * This function for reading JSON file can be found at ```src/main/java/file_handling/FileManager.java```:
   ```java
    ppublic static JSONObject readJsonFile(String jsonFilePath){
