@@ -60,6 +60,7 @@ Ensure the following are set in your system:
 * JAVA_HOME → Path to JDK 11+
 * MAVEN_HOME → Path to Maven installation
 * PATH → Add Maven and Java bin directories
+4️⃣ Run UI Tests (Selenium)
 
 
 
