@@ -67,10 +67,11 @@ To execute web automation tests on Amazon.eg, run:
 mvn test -Dtest=AddProductTest
 ```
 
-
-
-
-
+5️⃣ Run API Tests (RestAssured)
+To execute API test cases using Reqres API, run:
+```sh
+mvn test -Dtest=ApiTest
+```
 
 
 
