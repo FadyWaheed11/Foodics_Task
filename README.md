@@ -231,7 +231,13 @@ public void test() {
   }
   ```
 ## Builder Pattern 🏗️
+* The Builder Pattern is a creational design pattern that allows the step-by-step construction of complex objects. Instead of using a large constructor with multiple parameters, the Builder Pattern provides a fluent interface to create objects in a readable and flexible manner.
 
+The Builder Pattern is used here to construct ApiClientRequest objects in a step-by-step manner.
+
+The ApiRequestBuilder class helps in building the ApiClientRequest object with optional parameters.
+Method chaining (this return type) allows a fluent interface for setting request parameters.
+The build() method finalizes the object creation.
 
 [product-screenshot]: images/screenshot.png
 [Java]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white
