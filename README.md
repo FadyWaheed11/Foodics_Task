@@ -268,6 +268,8 @@ ApiClientRequest request = ApiClientRequest.builder("https://api.example.com", "
 * Verify that all selected products are added to the cart.
 * Ensure the total price is correct, including shipping fees.
 * Proceed to checkout and enter shipping details.
+* This Test scenario can be found at ```src/test/java/ui/AddProductTest.java```:
+🔗 API Test Scenarios (User Management API)
   
 
 
