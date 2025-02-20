@@ -54,6 +54,12 @@ Below is an example of how you can install and set up the project.
 ```sh
 mvn clean install
 ```
+3️⃣ Configure Environment Variables
+Ensure the following are set in your system:
+
+JAVA_HOME → Path to JDK 11+
+MAVEN_HOME → Path to Maven installation
+PATH → Add Maven and Java bin directories
 
 
 
