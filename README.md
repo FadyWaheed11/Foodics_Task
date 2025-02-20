@@ -72,7 +72,7 @@ To execute API test cases using Reqres API, run:
 ```sh
 mvn test -Dtest=ApiTest
 ```
-OR run all API tests:
+OR run all tests:
 ```sh
 mvn test
 ```
