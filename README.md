@@ -247,6 +247,10 @@ ApiClientRequest request = ApiClientRequest.builder("https://api.example.com", "
     .contentType(ContentType.JSON)
     .build();
 ```
+* You can read more about Builder pattern on:
+  - [TutorialsPoint](https://www.tutorialspoint.com/design_pattern/builder_pattern.htm)
+  - [GeeksForGeeks](https://www.geeksforgeeks.org/builder-design-pattern/)
+  - [Medium](https://medium.com/@thecodebean/builder-design-pattern-implementation-in-java-6adc6fd99ee0)
 
 [product-screenshot]: images/screenshot.png
 [Java]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white
