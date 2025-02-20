@@ -99,18 +99,30 @@ mvn test
 
 ## Singleton Design Pattern 🔄
 * Singleton design pattern restricts the instantiation of a class and ensures that only one instance of the class exists in the jvm
-* So in our case we want to ensure that we have only one instance of AppiumDriver
+🔹 Why use Singleton in test automation?
+✅ Ensures that only one instance of WebDriver is created during the test execution.
+✅ Prevents unnecessary browser or session duplications.
+✅ Improves memory efficiency and resource management.
+
+In our case, we want to ensure that we have only one instance of WebDriver throughout the test execution.
+Implementation in the UI part:
+In the utils package, we have a class named DriverFactory, which manages the WebDriver instance using the Singleton Design Pattern.
 
  ```java
-private static AppiumDriver driver;
+private static WebDriver driver;
 
-public static AppiumDriver getAppiumDriver() {
-    if (driver == null) {
-        driver = new AppiumDriver(getAppiumServerUrl(), getCapabilities());
+public static WebDriver getDriver(String browserName) {
+        if (driver == null) {
+            if (browserName.equalsIgnoreCase("chrome")) {
+                driver = new ChromeDriver();
+            } else if (browserName.equalsIgnoreCase("firefox")) {
+                driver = new FirefoxDriver();
+            } else if (browserName.equalsIgnoreCase("edge")) {
+                driver = new EdgeDriver();
+            }
+        }
         return driver;
     }
-    return driver;
-}
 ```
 
 
