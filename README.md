@@ -212,7 +212,7 @@ public void test() {
   - [Baeldung](https://www.baeldung.com/java-constructors-vs-static-factory-methods)
   - [StackOverFlow](https://stackoverflow.com/questions/929021/what-are-static-factory-methods)
 
-## Data Driven Techniques
+## Data Driven Techniques 📊
 * Data Driven Testing is a software testing method in which test data is stored in table or spreadsheet format.
 * Data Driven Framework is an automation testing framework in which input values are read from data files and stored into variables in test scripts.
 * Data Driven Testing is important because testers frequently have multiple data sets for a single test and creating individual tests for each data set can be time-consuming.
