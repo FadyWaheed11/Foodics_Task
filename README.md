@@ -256,7 +256,7 @@ ApiClientRequest request = ApiClientRequest.builder("https://api.example.com", "
 * **Consists of two part**
   - Main part which contains our framework
   - Test part which contains our test scenarios
-  - <img width="200" alt="Screenshot 2025-02-20 at 5 43 58 PM" src="https://github.com/user-attachments/assets/77c43944-491d-4217-8df4-17c329ef83ad" />
+  - <img width="250" alt="Screenshot 2025-02-20 at 5 43 58 PM" src="https://github.com/user-attachments/assets/77c43944-491d-4217-8df4-17c329ef83ad" />
 
 
 [product-screenshot]: images/screenshot.png
