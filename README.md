@@ -261,6 +261,14 @@ ApiClientRequest request = ApiClientRequest.builder("https://api.example.com", "
 ## Test Scenarios
 🛒 UI Test Scenarios (E-commerce - Amazon)
 * Open Amazon Egypt
+* Open the "All" menu and navigate to Video Games → All Video Games.
+* Apply filters: Free Shipping and New Condition.
+* Sort items by Price: High to Low.
+* Add all products below 15K EGP to the cart (if available) if not go to the next page.
+* Verify that all selected products are added to the cart.
+* Ensure the total price is correct, including shipping fees.
+* Proceed to checkout and enter shipping details.
+  
 
 
 [product-screenshot]: images/screenshot.png
