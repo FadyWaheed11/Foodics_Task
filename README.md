@@ -173,7 +173,55 @@ public void test() {
 }
 ```
 
+## Static Factory Method
+* The most widely used technique to allow other parts of our Java programs, to get objects of a certain type, is to create public constructors.
+* There is also another technique which is that provides various advantages and it would be highly recommendable for every programmer to know. Classes can provide static factory methods. This methods are another way of returning instances.
+* #### Advantages of static factory method
+  - The static factory method can have a meaningful name.
+  - Static factory methods can return the same type that implements the method, a subtype, and also primitives.
+  - Inside static factory method other than initialization if we want to perform any activity for every object creation like increasing count value for every object creation we can do this in the static factory method.
+  - Encapsulate the construction logic.
+* So How we will benefit from this in our framework ?
+  - If we are testing the UI of application , we might have 50 screen or more 
+  - And we had 50 test classes , we would have this new login screen called 50 times:
+  ```java 
+   public class HomePage {
 
+    public  HomePage{
+        
+    }
+  }
+  ```
+  - Imagine if we decide to change the constructor of this class , we will have to change it in 50 different places
+  - But with this, it's only one place:
+  ```java 
+    public class HomePage {
+
+    //Prevent instance
+    private HomePage() {
+
+    }
+
+    public static HomePage getHomePage() {
+        return new HomePage();
+    }
+   ```
+* You can read more about Static Factory Method on:
+  - [Medium](https://medium.com/javarevisited/static-factory-methods-an-alternative-to-public-constructors-73cbe8b9fda)
+  - [GeeksForGeeks](https://www.geeksforgeeks.org/difference-between-constructor-and-static-factory-method-in-java/#:~:text=The%20static%20factory%20methods%20are,cached%20and%20reused%20if%20required)
+  - [Baeldung](https://www.baeldung.com/java-constructors-vs-static-factory-methods)
+  - [StackOverFlow](https://stackoverflow.com/questions/929021/what-are-static-factory-methods)
+
+## Data Driven Techniques
+* Data Driven Testing is a software testing method in which test data is stored in table or spreadsheet format.
+* Data Driven Framework is an automation testing framework in which input values are read from data files and stored into variables in test scripts.
+* Data Driven Testing is important because testers frequently have multiple data sets for a single test and creating individual tests for each data set can be time-consuming.
+* In our case we will use JSON files for data driven.
+#### Why JSON over Excel?
+ - Most of data driven testing framework we have used Excel – Apache POI But there is other medium as well to store data into files such as csv, xml, json, text file, etc.
+ - Excel is good to manage data and to use but it comes with its own limitations. Like MS Office needs to be installed on the system where the tests are being executed. 
+ - As the test servers has never bound to have such dependencies.
+ - If test is run on Mac, then again there is a different problem.
 
 
 
