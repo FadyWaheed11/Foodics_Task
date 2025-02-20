@@ -271,8 +271,19 @@ ApiClientRequest request = ApiClientRequest.builder("https://api.example.com", "
 * This Test scenario can be found at ```src/test/java/ui/AddProductTest.java```:
   
 🔗 API Test Scenarios (User Management API)
-  
-
+* Create a new user
+* Verify that User is created successfully with 201 Created status.
+* Retrieve an existing user
+* Send a POST request to create a user.
+* Extract the generated user ID from the response.
+* Send a GET request to retrieve the user details using the ID.
+* Verify that Response returns 200 OK.
+* Verify that The user details match the expected values.
+* Update an existing user
+* Send a PUT request with updated user details (name, job, age)
+* Verify that the user information is updated correctly.
+* Verify that Response returns 200 OK
+* Verify that Updated details match the expected values.
 
 [product-screenshot]: images/screenshot.png
 [Java]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white
