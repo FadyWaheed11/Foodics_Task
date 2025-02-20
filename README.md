@@ -140,10 +140,38 @@ public static WebDriver getDriver(String browserName) {
 * Method Chaining is the practice of calling different methods in a single line instead of calling other methods with the same object reference separately. Under this procedure, we have to write the object reference once and then call the methods by separating them with a (dot.).
 * Syntax -> `obj.method1().method2().method3();`
 * So in our case we made those methods return `this` which refers to the current object.
+```java
+public PostAdScreen clickOnChooseCategory() {
+    clickOnElement(categoryFieldLocator);
+    return this;
+}
 
+public PostAdScreen selectAutomotiveCategory() {
+    clickOnElement(automotiveCategoryLocator);
+    return this;
+}
 
-
-
+public PostAdScreen selectCarsSection() {
+    clickOnElement(carsFieldLocator);
+    return this;
+}
+```
+* So in our Test part instead of calling methods like this:
+```java
+public void test() {
+    postAdScreen.clickOnChooseCategory();
+    postAdScreen.selectAutomotiveCategory();
+    postAdScreen.selectCarsSection();
+}
+```
+* We do this:
+```java
+public void test() {
+    postAdScreen.clickOnChooseCategory()
+                .selectAutomotiveCategory()
+                .selectCarsSection();
+}
+```
 
 
 
