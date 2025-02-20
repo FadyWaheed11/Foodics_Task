@@ -34,8 +34,13 @@ This section should list any major dependencies/libraries used to bootstrap this
 * [![JsonSimple][JsonSimple]][JsonSimple-url]
 
 
+## Prerequisites
 
-
+Before running the automation script for the 4Sale App using Appium, ensure the following prerequisites are met:
+1. **Java Development Kit (JDK):**
+   - Ensure JDK is installed on your system. You can download it from the [Java SE Downloads page](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+2. **Development Environment - IntelliJ IDEA:**
+   - Download and install IntelliJ IDEA from [jetbrains.com/idea/](https://www.jetbrains.com/idea/).
 
 
 
