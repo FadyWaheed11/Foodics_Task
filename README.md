@@ -239,6 +239,14 @@ public void test() {
  Method Chaining (this return type) enables a fluent interface for configuring request parameters seamlessly.
 * The `build()` method is used to finalize object creation.
 
+ ```java
+ApiClientRequest request = ApiClientRequest.builder("https://api.example.com", "/users", HTTPMethod.POST)
+    .headers(headersMap)
+    .queryParams(queryParamsMap)
+    .body(userPayload)
+    .contentType(ContentType.JSON)
+    .build();
+```
 
 [product-screenshot]: images/screenshot.png
 [Java]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white
