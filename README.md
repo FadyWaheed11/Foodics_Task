@@ -74,7 +74,7 @@ mvn test -Dtest=ApiTest
 ```
 OR run all API tests:
 ```sh
-mvn test -Dgroups="API"
+mvn test
 ```
 
 
