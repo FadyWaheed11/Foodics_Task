@@ -8,5 +8,4 @@
 * [Design Patterns & Concepts](#design-patterns-and-concepts)
 * [Project Structure](#project-structure)
 * [Test Scenarios](#test-scenarios)
-
-
+## About The Project
