@@ -77,7 +77,7 @@ OR run all tests:
 mvn test
 ```
 
-## Design Patterns and Concepts
+## 🎯Design Patterns and Concepts
 * [Page-Object-Model Pattern **POM**](#pom)
 * [Singleton Design Pattern](#singleton-design-pattern)
 * [Method Chaining Concept](#method-chaining-concept)
