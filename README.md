@@ -21,3 +21,13 @@ This project is a **Selenium-Java** and **RestAssured API** test automation fram
 ✅ **Maven for Dependency Management:** Simplifies project setup and execution.  
 
 This framework follows industry best practices to ensure **scalability, reusability, and reliability** in test automation. 🚀  
+
+## ⚙️Built With
+
+This section should list any major dependencies/libraries used to bootstrap this project.
+
+* [![Java][Java]][Java-url]
+* [![Selenium][Selenium]][Selenium-url]
+* [![Appium][Appium]][Appium-url]
+* [![TestNG][TestNG]][TestNG-url]
+* [![JsonSimple][JsonSimple]][JsonSimple-url]
