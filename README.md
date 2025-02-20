@@ -37,10 +37,9 @@ This section should list any major dependencies/libraries used to bootstrap this
 ## Prerequisites
 
 Before setting up the project, ensure you have the following installed on your system:  
-1. **Java Development Kit (JDK):**
-   - Ensure JDK is installed on your system. You can download it from the [Java SE Downloads page](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. **Development Environment - IntelliJ IDEA:**
-   - Download and install IntelliJ IDEA from [jetbrains.com/idea/](https://www.jetbrains.com/idea/).
+✅ **Operating System:** Windows, macOS, or Linux  
+✅ **Java Development Kit (JDK 11+)** – [Download Here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)  
+✅ **Maven (Latest Version)** – [Download Here](https://maven.apache.org/download.cgi)  
 
 
 
