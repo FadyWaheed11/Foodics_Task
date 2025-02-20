@@ -252,6 +252,11 @@ ApiClientRequest request = ApiClientRequest.builder("https://api.example.com", "
   - [GeeksForGeeks](https://www.geeksforgeeks.org/builder-design-pattern/)
   - [Medium](https://medium.com/@thecodebean/builder-design-pattern-implementation-in-java-6adc6fd99ee0)
 
+ ## Project Structure
+* **Consists of two part**
+  - Main part which contains our framework
+  - Test part which contains our test scenarios
+
 [product-screenshot]: images/screenshot.png
 [Java]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white
 [Java-url]: https://docs.oracle.com/en/java/
