@@ -36,7 +36,7 @@ This section should list any major dependencies/libraries used to bootstrap this
 
 ## Prerequisites
 
-Before running the automation script for the 4Sale App using Appium, ensure the following prerequisites are met:
+Before setting up the project, ensure you have the following installed on your system:  
 1. **Java Development Kit (JDK):**
    - Ensure JDK is installed on your system. You can download it from the [Java SE Downloads page](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 2. **Development Environment - IntelliJ IDEA:**
