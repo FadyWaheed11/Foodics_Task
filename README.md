@@ -46,10 +46,15 @@ Before setting up the project, ensure you have the following installed on your s
 
 Below is an example of how you can install and set up the project.
 
-1. Clone the repo
+1️⃣ Clone the repo
    ```sh
    git clone https://github.com/FadyWaheed11/Foodics_Task.git
    ```
+2️⃣ Install Dependencies
+```sh
+mvn clean install
+```
+
 
 
 
