@@ -62,7 +62,10 @@ Ensure the following are set in your system:
 * PATH → Add Maven and Java bin directories
   
 4️⃣ Run UI Tests (Selenium)
-
+To execute web automation tests on Amazon.eg, run:
+```sh
+mvn test -Dtest=AddProductTest
+```
 
 
 
