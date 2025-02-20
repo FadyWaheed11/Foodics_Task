@@ -99,10 +99,11 @@ mvn test
 
 ## Singleton Design Pattern 🔄
 * Singleton design pattern restricts the instantiation of a class and ensures that only one instance of the class exists in the jvm
-### 🔹 **Why use Singleton in test automation?**:
-✅ **Ensures that only one instance of WebDriver is created during the test execution.
-✅ **Prevents unnecessary browser or session duplications.
-✅ **Improves memory efficiency and resource management.
+🔹 **Why use Singleton in test automation?**  
+
+✅ Ensures that only **one instance** of **WebDriver** is created during the test execution.  
+✅ Prevents unnecessary browser or session duplications.  
+✅ Improves memory efficiency and resource management. 
 
 In our case, we want to ensure that we have only one instance of WebDriver throughout the test execution.
 Implementation in the UI part:
