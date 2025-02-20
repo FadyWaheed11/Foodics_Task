@@ -258,41 +258,10 @@ ApiClientRequest request = ApiClientRequest.builder("https://api.example.com", "
   - Test part which contains our test scenarios
   - <img width="300" alt="Screenshot 2025-02-20 at 5 43 58 PM" src="https://github.com/user-attachments/assets/77c43944-491d-4217-8df4-17c329ef83ad" />
 
- Test Scenarios
+## Test Scenarios
 🛒 UI Test Scenarios (E-commerce - Amazon)
 
-#	Scenario	Steps	Expected Result
-1	Add products under 15K EGP to cart		
-1️⃣ Open Amazon Egypt and log in.			
-2️⃣ Open the "All" menu and navigate to Video Games → All Video Games.			
-3️⃣ Apply filters: Free Shipping and New Condition.			
-4️⃣ Sort items by Price: High to Low.			
-5️⃣ Add all products below 15K EGP to the cart (if available).			
-6️⃣ Verify that all selected products are added to the cart.			
-7️⃣ Ensure the total price is correct, including shipping fees.			
-8️⃣ Proceed to checkout and enter shipping details.			
-9️⃣ Choose Cash on Delivery as the payment method.			
-✅ Products under 15K EGP are successfully added to the cart.			
-✅ The total price calculation is accurate.			
-✅ Address is added correctly, and payment method selection works as expected.			
-🔗 API Test Scenarios (User Management API)
 
-#	Scenario	Steps	Expected Result
-1	Create a new user		
-1️⃣ Send a POST request with user details (name, job, age).			
-✅ User is created successfully with 201 Created status.			
-| 2 | Retrieve an existing user |
-1️⃣ Send a POST request to create a user.
-2️⃣ Extract the generated user ID from the response.
-3️⃣ Send a GET request to retrieve the user details using the ID. |
-✅ Response returns 200 OK.
-✅ The user details match the expected values.
-
-| 3 | Update an existing user |
-1️⃣ Send a PUT request with updated user details (name, job, age).
-2️⃣ Validate that the user information is updated correctly. |
-✅ Response returns 200 OK.
-✅ Updated details match the expected values.
 
 
 [product-screenshot]: images/screenshot.png
