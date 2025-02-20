@@ -106,9 +106,14 @@ mvn test
 ✅ Prevents unnecessary browser or session duplications.  
 ✅ Improves memory efficiency and resource management. 
 
-In our case, we want to ensure that we have only one instance of WebDriver throughout the test execution.
-Implementation in the UI part:
-In the utils package, we have a class named DriverFactory, which manages the WebDriver instance using the Singleton Design Pattern.
+In our case, we want to ensure that we have only one instance of WebDriver  
+throughout the test execution.  
+
+Implementation in the UI part:  
+
+In the `utils` package, we have a class named `DriverFactory`, which manages the  
+WebDriver instance using the Singleton Design Pattern.  
+
 
  ```java
 private static WebDriver driver;
