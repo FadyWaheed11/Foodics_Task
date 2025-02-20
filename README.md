@@ -260,8 +260,7 @@ ApiClientRequest request = ApiClientRequest.builder("https://api.example.com", "
 
 ## Test Scenarios
 🛒 UI Test Scenarios (E-commerce - Amazon)
-
-
+* Open Amazon Egypt
 
 
 [product-screenshot]: images/screenshot.png
