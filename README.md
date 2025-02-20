@@ -101,6 +101,17 @@ mvn test
 * Singleton design pattern restricts the instantiation of a class and ensures that only one instance of the class exists in the jvm
 * So in our case we want to ensure that we have only one instance of AppiumDriver
 
+ ```java
+private static AppiumDriver driver;
+
+public static AppiumDriver getAppiumDriver() {
+    if (driver == null) {
+        driver = new AppiumDriver(getAppiumServerUrl(), getCapabilities());
+        return driver;
+    }
+    return driver;
+}
+```
 
 
 
