@@ -23,7 +23,7 @@ This project is a **Selenium-Java** and **RestAssured API** test automation fram
 This framework follows industry best practices to ensure **scalability, reusability, and reliability** in test automation. 🚀 
 
 
-## ⚙️Built With
+## Built With
 
 This section should list any major dependencies/libraries used to bootstrap this project.
 
