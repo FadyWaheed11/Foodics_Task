@@ -141,35 +141,35 @@ public static WebDriver getDriver(String browserName) {
 * Syntax -> `obj.method1().method2().method3();`
 * So in our case we made those methods return `this` which refers to the current object.
 ```java
-public PostAdScreen clickOnChooseCategory() {
-    clickOnElement(categoryFieldLocator);
-    return this;
-}
+  public HomePage clickOnLeftSideMenu(){
+        clickOnElement(leftSideMenuLocator);
+        return this;
+    }
 
-public PostAdScreen selectAutomotiveCategory() {
-    clickOnElement(automotiveCategoryLocator);
-    return this;
-}
+    public HomePage clickOnVideoGames(){
+        clickOnElement(seeAllMenuButtonLocator);
+        clickOnElement(videoGamesLocator);
+        return this;
+    }
 
-public PostAdScreen selectCarsSection() {
-    clickOnElement(carsFieldLocator);
-    return this;
-}
+    public void clickOnAllVideoGames(){
+        clickOnElement(allVideoGamesLocator);
+    }
 ```
 * So in our Test part instead of calling methods like this:
 ```java
 public void test() {
-    postAdScreen.clickOnChooseCategory();
-    postAdScreen.selectAutomotiveCategory();
-    postAdScreen.selectCarsSection();
+    homePage.clickOnLeftSideMenu();
+    homePage..clickOnVideoGames();
+    homePage.clickOnAllVideoGames();
 }
 ```
 * We do this:
 ```java
 public void test() {
-    postAdScreen.clickOnChooseCategory()
-                .selectAutomotiveCategory()
-                .selectCarsSection();
+     homePage.clickOnLeftSideMenu()
+                .clickOnVideoGames()
+                .clickOnAllVideoGames();
 }
 ```
 
