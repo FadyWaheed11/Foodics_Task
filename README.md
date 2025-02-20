@@ -1,3 +1,4 @@
 # Foodics_Automation_Task
-![image](https://github.com/user-attachments/assets/92374c93-b23e-41e1-889e-3877fb9ff93c)
+![image](https://github.com/user-attachments/assets/1295ce60-6aba-4c13-b1c0-d424a9a9ad59)
+
 
