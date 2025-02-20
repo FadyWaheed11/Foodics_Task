@@ -85,7 +85,7 @@ mvn test
 * [Data Driven Techniques](#data-driven-techniques)
 
 
-## POM🏗️
+## POM 🏗️
 * Page Object Model (POM) is a design pattern, popularly used in test automation that creates Object Repository for UI elements.
 * The advantage of the model is that it reduces code duplication and improves test maintenance.
 * We separate the framework (coding part) from the testing part.
@@ -222,20 +222,18 @@ public void test() {
  - Excel is good to manage data and to use but it comes with its own limitations. Like MS Office needs to be installed on the system where the tests are being executed. 
  - As the test servers has never bound to have such dependencies.
  - If test is run on Mac, then again there is a different problem.
+## Read From JSON File
+* This function for reading JSON file can be found at ```src/main/java/file_handling/FileManager.java```:
+  ```java
+   ppublic static JSONObject readJsonFile(String jsonFilePath){
+      ............................................
+  }
+  ```
+
+  
 
 
 
-
-
-
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
 [Java]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white
 [Java-url]: https://docs.oracle.com/en/java/
@@ -243,7 +241,6 @@ public void test() {
 [Selenium-url]: https://www.selenium.dev/documentation/webdriver/
 [RestAssured]: https://img.shields.io/badge/RestAssured-%234CAF50.svg?style=for-the-badge&logoColor=white
 [RestAssured-url]: https://rest-assured.io/
-[Appium-url]: https://appium.io/docs/en/latest/
 [TestNG]: https://img.shields.io/badge/TestNg-FF7F00?style=for-the-badge&logo=testng&logoColor=white
 [TestNG-url]: https://testng.org/
 [JsonSimple]: https://img.shields.io/badge/JSON_Simple-000000?style=for-the-badge&logo=json&logoColor=white
