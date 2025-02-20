@@ -20,7 +20,8 @@ This project is a **Selenium-Java** and **RestAssured API** test automation fram
 ✅ **Robust Error Handling & Logging:** Ensures stability and debugging efficiency.  
 ✅ **Maven for Dependency Management:** Simplifies project setup and execution.  
 
-This framework follows industry best practices to ensure **scalability, reusability, and reliability** in test automation. 🚀  
+This framework follows industry best practices to ensure **scalability, reusability, and reliability** in test automation. 🚀 
+
 
 ## ⚙️Built With
 
