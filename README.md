@@ -29,7 +29,7 @@ This section should list any major dependencies/libraries used to bootstrap this
 
 * [![Java][Java]][Java-url]
 * [![Selenium][Selenium]][Selenium-url]
-* [![Appium][Appium]][Appium-url]
+* [![RestAssured][RestAssured]][RestAssured-url]
 * [![TestNG][TestNG]][TestNG-url]
 * [![JsonSimple][JsonSimple]][JsonSimple-url]
 
