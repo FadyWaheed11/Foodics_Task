@@ -83,6 +83,7 @@ mvn test
 * [Method Chaining Concept](#method-chaining-concept)
 * [Static Factory Method](#static-factory-method)
 * [Data Driven Techniques](#data-driven-techniques)
+* [Builder Pattern](#builder-pattern)
 
 
 ## POM 🏗️
@@ -229,9 +230,7 @@ public void test() {
       ............................................
   }
   ```
-
-  
-
+## Builder Pattern 🏗️
 
 
 [product-screenshot]: images/screenshot.png
